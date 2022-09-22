@@ -9,19 +9,23 @@ body {
   color: color: #ffffff;
 }
  li {
-  color: color: #ffffff;
+  color: #ffffff;
   list-style: none;
  }
-
+ 
  a {
   text-decoration: none;
   color: #ffffff;
  }
 
-
 .d-flex {
   display: flex;
 }
+
+.icon {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  }
 
 header {
   height: 70px;
@@ -45,10 +49,8 @@ header ul li {
   font-size: bold;
 }
 
-footer {
-  height: 75px;
-  background-color: #222222;
-  
+header .icon.maxi::before {
+  content: "\f31e";
 }
 
 main {
@@ -86,4 +88,42 @@ main {
   font-size: 0.8rem;
   padding: 5px;
 }
+
+main .icon.mic-slash::before {
+  content: "\f131";
+}
+
+footer {
+  height: 75px;
+  background-color: #222222;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer span {
+  display: block;
+}
+
+footer li {
+  text-align: center;
+}
+
+footer li .d-flex {
+  align-items: center;
+}
+
+footer .icon.mic::before {
+  content: "\f130";
+}
+
+footer .icon.chevron::before {
+  content: "\f077";
+}
+
+footer .icon.video::before {
+  content: "\f03d";
+}
+
+
+
 
