@@ -29,12 +29,13 @@ body {
 .icon {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
-  }
+}
 
 .bg-grey {
   background-color: #4a4a4a;
 }
 
+/* HEADER */
 header {
   height: 70px;
 }
@@ -64,6 +65,7 @@ header .icon.maxi::before {
   content: "\f31e";
 }
 
+/* MAIN */
 main {
   height: calc(100vh - 145px);
   overflow: auto;
@@ -76,7 +78,7 @@ main {
   justify-content: center;
 }
 
-.card {
+main .card {
   background-color: red;
   width: 240px;
   height: 140px;
@@ -84,13 +86,13 @@ main {
   position: relative;
 }
 
-.card img {
+main .card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.user {
+main .user {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -99,12 +101,12 @@ main {
   padding: 5px;
 }
 
-
 main .icon.mic-slash::before {
   content: "\f131";
   color: #ff5c5c;
 }
 
+/* FOOTER */
 footer {
   height: 75px;
   background-color: #222222;
@@ -141,7 +143,7 @@ footer .icon:not(.chevron) {
   font-size: 1.7rem;
 }
 
-footer .icon.chevron {
+footer .menu-left .icon.chevron {
   margin: 0 15px;
   font-size: 0.6rem;
 }
