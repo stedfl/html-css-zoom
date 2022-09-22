@@ -190,8 +190,12 @@ footer li {
   margin: 0 10px;
 }
 
-footer li a:active .active {
-  color: green;
+footer .active:active {
+  color:#4bc800;
+}
+
+footer .active-red:active {
+  color: red;
 }
 
 
