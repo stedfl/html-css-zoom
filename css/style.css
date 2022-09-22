@@ -12,36 +12,42 @@ img {
   max-width: 100%;
 }
 
-.bg-grey {
-  background-color: #222222;
-}
-
 .d-flex {
   display: flex;
 }
 
 header {
-  
+  height: 70px;
 }
 
 footer {
   height: 75px;
+  background-color: #222222;
 }
 
 main {
-  height: calc(100vh - 75px);
+  height: calc(100vh - 145px);
   overflow: auto;
 }
 
 .container {
-  width: 90%;
+  width: 92%;
   margin: 0 auto;
-  padding-top: 70px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .card {
-  
+  background-color: red;
+  width: 240px;
+  height: 140px;
+  margin: 10px 5px;
+  position: relative;
+}
+
+.user {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
