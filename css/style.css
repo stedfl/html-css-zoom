@@ -56,8 +56,8 @@ header ul li {
   font-size: bold;
 }
 
-header .icon.grid::before {
-  content: "\e195";
+header .icon.table::before {
+  content: "\f00a";
 }
 
 header .icon.maxi::before {
@@ -99,8 +99,10 @@ main {
   padding: 5px;
 }
 
+
 main .icon.mic-slash::before {
   content: "\f131";
+  color: #ff5c5c;
 }
 
 footer {
@@ -178,8 +180,8 @@ footer .icon.rec::before {
   content:"\f8d9";
 }
 
-footer .icon.grid2::before {
-  content:"\e196";
+footer .icon.table::before {
+  content:"\f009";
 }
 
 footer .icon.more::before {
