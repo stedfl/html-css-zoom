@@ -9,6 +9,7 @@ body {
   color: color: #ffffff;
   font-family: 'Rubik', sans-serif;
   font-size: 0.8rem;
+  font-weight: bold;
   color: #ffffff;
 }
 
@@ -36,7 +37,6 @@ body {
 
 header {
   height: 70px;
-  font-weight: bold;
 }
 
 header nav {
@@ -54,6 +54,10 @@ header ul li {
   margin-right: 10px;
   border-radius: 5px;
   font-size: bold;
+}
+
+header .icon.grid::before {
+  content: "\e195";
 }
 
 header .icon.maxi::before {
@@ -115,7 +119,7 @@ footer li {
   text-align: center;
 }
 
-footer li .d-flex {
+footer .d-flex {
   align-items: center;
 }
 
@@ -149,6 +153,47 @@ footer .menu-right {
   height: 100%;
   padding: 0 20px;
 }
+
+footer .icon.user-plus::before {
+  content:"\f234";
+}
+
+footer .icon.user-group::before {
+  content:"\f500";
+}
+
+footer .icon.chart::before {
+  content:"\e0e3";
+}
+
+footer .icon.share::before {
+  content:"\f14d";
+}
+
+footer .icon.chat::before {
+  content:"\f075";
+}
+
+footer .icon.rec::before {
+  content:"\f8d9";
+}
+
+footer .icon.grid2::before {
+  content:"\e196";
+}
+
+footer .icon.more::before {
+  content:"\f141";
+}
+
+footer li {
+  margin: 0 10px;
+}
+
+footer li a:active .active {
+  color: green;
+}
+
 
 
 
