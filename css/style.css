@@ -6,11 +6,18 @@
 
 body {
   background-color:#000000;
+  color: color: #ffffff;
 }
+ li {
+  color: color: #ffffff;
+  list-style: none;
+ }
 
-img {
-  max-width: 100%;
-}
+ a {
+  text-decoration: none;
+  color: #ffffff;
+ }
+
 
 .d-flex {
   display: flex;
@@ -20,9 +27,28 @@ header {
   height: 70px;
 }
 
+header nav {
+  position: relative;
+}
+
+header ul {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+header ul li {
+  padding: 5px;
+  background-color: #4a4a4a;
+  margin-right: 10px;
+  border-radius: 5px;
+  font-size: bold;
+}
+
 footer {
   height: 75px;
   background-color: #222222;
+  
 }
 
 main {
@@ -45,9 +71,19 @@ main {
   position: relative;
 }
 
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .user {
   position: absolute;
   left: 0;
   bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  font-size: 0.8rem;
+  padding: 5px;
 }
 
