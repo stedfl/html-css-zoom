@@ -7,7 +7,10 @@
 body {
   background-color:#000000;
   color: color: #ffffff;
+  font-family: 'Rubik', sans-serif;
+  font-size: 0.8rem;
 }
+
  li {
   color: #ffffff;
   list-style: none;
@@ -29,6 +32,7 @@ body {
 
 header {
   height: 70px;
+  font-weight: bold;
 }
 
 header nav {
@@ -123,6 +127,20 @@ footer .icon.chevron::before {
 footer .icon.video::before {
   content: "\f03d";
 }
+
+footer .icon:not(.chevron) {
+  font-size: 1.7rem;
+}
+
+footer .icon.chevron {
+  margin: 0 15px;
+  font-size: 0.6rem;
+}
+
+footer .text {
+  margin-top: 3px;
+}
+
 
 
 
