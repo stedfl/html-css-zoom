@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color:#000000;
+}
+
+.bg-grey {
+  background-color: #222222;
+}
+
+header {
+  
+}
+
+footer {
+  height: 75px;
+}
+
+main {
+  height: calc(100vh - 75px);
+  overflow: auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 70px;
+}
